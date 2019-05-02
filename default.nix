@@ -1,8 +1,8 @@
 { pkgs ? import ((import <nixpkgs> {}).fetchFromGitHub {
     owner = "NixOS";
     repo = "nixpkgs";
-    rev = "f52505fac8c82716872a616c501ad9eff188f97f";
-    sha256 = "0q2m2qhyga9yq29yz90ywgjbn9hdahs7i8wwlq7b55rdbyiwa5dy";
+    rev = "d8cb12884d346da451d56b14276cd9f8c8195c6d";
+    sha256 = "1dw77d47ly8dk356yff7y4a6c0yrk88w6s8irh09mnnyl5kfwllp";
   }){}
 , haddock ? true
 }:
